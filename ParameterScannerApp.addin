@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+    <AddIn Type="Application">
+        <Name>ParameterScannerApp</Name>
+        <Assembly>ParameterScanner.dll</Assembly>
+		<AddInId>C7B350F4-7B54-4131-8AD8-F606FE183FD8</AddInId>
+        <FullClassName>ParameterScannerApp.ExternalApplication</FullClassName>
+        <VendorId>MBM</VendorId>
+        <VendorDescription>Mariana Menezes</VendorDescription>
+    </AddIn>
+</RevitAddIns>
+
+
+
+
