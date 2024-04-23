@@ -8,7 +8,7 @@ This solution is designed to work with Revit 2020, as specified in the requireme
 
 ## Development
 
-To complete the assigned task of selecting and isolating Revit elements based on a certain parameter value, I first developed an element filter that encompassed all model instances. From the list of all model instances, I obtained the desired user input 'Parameter Name' and searched for this parameter within all model elements. The result of this action was a dictionary containing the parameter values. Then, using the user input 'Parameter Value', I found all elements whose parameter value was equal to those searched for. From then on, I developed the select and isolate functions.
+To complete the assigned task of selecting and isolating Revit elements based on a certain parameter value, I first developed an element filter that encompassed all model instances. From the list of all model instances, I obtained the desired user input 'Parameter Name' and searched for this parameter within all model elements. The result of this action was a dictionary containing the parameter values. Then, using the user input 'Parameter Value', I found all elements whose parameter value was equal to those searched for. From then on, I developed the select and isolate functions. The solicited warning messages were also added to the feature.
 
 ## Possible improvements
 
