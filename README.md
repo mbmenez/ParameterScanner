@@ -1,6 +1,6 @@
 ## Description
 
-This is Mariana Menezes' source code for the technical test assignment for the Revit Add-in Developer position at ENG. The installer can be found in the release attachments of this repository or inside the 'Output' file. It's named 'ParameterScannerApp 1.0.0.exe'.
+This is Mariana Menezes' source code for a simple Parameter Scanner. The installer can be found in the release attachments of this repository or inside the 'Output' file. It's named 'ParameterScannerApp 1.0.0.exe'.
 
 This solution is designed to work with Revit 2020, as specified in the requirements. It's important to note that the tool will only recognize elements whose Parameter Name and Parameter Value exactly match those found in the object. For example, parameter values of ElementId types, such as 'Level' parameters, should have the desired level ElementId as the parameter value, not its name. Also, parameters that are of 'double' type must receive their exact value as input. Parameters values of Yes/No (integer) type must be represented using 0 or 1.
 
